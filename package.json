@@ -1,0 +1,17 @@
+{
+  "name": "melissa-instagram-bot",
+  "version": "0.2.0",
+  "private": true,
+  "description": "MELISSA-INSTA-BOT: command and event plugins for Meta's official Instagram messaging API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "mongodb": "^7.7.0"
+  }
+}
