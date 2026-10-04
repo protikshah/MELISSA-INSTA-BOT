@@ -1,0 +1,15 @@
+{
+  "commands": [
+    "admin",
+    "cmd",
+    "help",
+    "kick",
+    "leave",
+    "out",
+    "ping",
+    "tid",
+    "uid",
+    "uptime",
+    "wlt"
+  ]
+}
