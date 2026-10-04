@@ -1,0 +1,49 @@
+{
+  "bot": {
+    "name": "MELISSA-INSTA-BOT",
+    "nick": "Melissa",
+    "prefix": "!",
+    "lang": "en",
+    "fallbackLang": "en",
+    "ownerIds": [],
+    "adminIds": [],
+    "developerIds": [],
+    "premiumIds": [],
+    "vipIds": [],
+    "selfListen": false,
+    "logLevel": "INFO"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 3000,
+    "webhookPath": "/webhook"
+  },
+  "meta": {
+    "graphApiBase": "https://graph.facebook.com",
+    "graphApiVersion": "v23.0"
+  },
+  "paths": {
+    "commandsDir": "./Loaders/Commands",
+    "eventsDir": "./Loaders/Events",
+    "dataDir": "./data",
+    "commandsManifest": "./loader.Commands.json"
+  },
+  "database": {
+    "type": "json",
+    "jsonFile": "database.json",
+    "sqliteFile": "melissa.sqlite",
+    "mongoDatabase": "melissa"
+  },
+  "welcome": {
+    "enabled": false,
+    "message": "Thanks for messaging MELISSA-INSTA-BOT. Send !help to see available commands.",
+    "cooldownDays": 30
+  },
+  "maintenance": {
+    "restartAfterDays": 10
+  },
+  "limits": {
+    "messagesPerMinute": 30,
+    "maxWebhookBytes": 1048576
+  }
+}
