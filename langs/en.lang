@@ -1,0 +1,56 @@
+# ===== Core =====
+bot.ready = Melissa Instagram chat bot now ready to get messages
+login.success = Successfully authenticated as @{0}
+login.failed = Authentication failed for @{0}: {1}
+session.restored = Session restored successfully from cache for @{0}
+session.expired = Session expired for @{0}, re-authenticating...
+twoFactor.required = 2FA Verification Code required for @{0}
+checkpoint.required = Security Checkpoint triggered for @{0}
+loader.commandLoaded = Loaded command module: [{0}]
+loader.eventLoaded = Loaded event listener: [{0}]
+doodle.created = Generated doodle canvas image successfully [{0}]
+multiAccount.added = Added account @{0} to active rotation pool.
+rateLimit.throttle = Rate-limiting active. Throttling outbound request for {0}ms.
+
+# ===== Meta setup =====
+meta.setup.missing = Missing Meta configuration: {missing}
+meta.setup.ready = Meta Graph API configuration is ready.
+
+# ===== Commands =====
+commands.help.title = Available commands:
+commands.help.empty = No commands available.
+commands.help.row = !{name} — {description}
+commands.ping.result = Pong! Melissa is online.
+commands.uid.result = Your sender ID: {id}
+commands.errors.admin = You need administrator permissions for this command.
+errors.send = An error occurred while processing your command.
+errors.eventHandler = Event handler error
+
+# ===== Login gban (array style placeholders) =====
+login.gbanMessage = You have been banned from the Goat-Bot project on %1 for the reason: %2\n» Time: %3
+
+# ===== Admin command =====
+commands.admin.list = Admin sender IDs: {ids}
+commands.admin.added = Added admin {id}.
+commands.admin.removed = Removed admin {id}.
+commands.admin.usage = Usage: !admin list | !admin add <sender-id> | !admin remove <sender-id>
+
+# ===== Cmd command =====
+commands.cmd.list = Commands: {names}
+commands.cmd.reloaded = Reloaded {count} command plugins.
+commands.cmd.events.list = Events: {names}
+commands.cmd.events.reloaded = Reloaded {count} event plugins.
+commands.cmd.events.loaded = Loaded event {name}.
+commands.cmd.events.unloaded = Unloaded event {name}.
+commands.cmd.events.notfound = Event not found: {name}.
+commands.cmd.loaded = Loaded command {name}.
+commands.cmd.unloaded = Unloaded command {name}.
+commands.cmd.notfound = Command not found: {name}.
+
+# ===== Other commands =====
+commands.kick.unsupported = No action taken: Instagram Messaging API does not support kicking members.
+commands.leave.unsupported = No action taken: group membership actions are not supported.
+commands.uptime.result = Uptime: {days}d {hours}h {minutes}m {seconds}s
+commands.wlt.status = Welcome messages are {status}.
+commands.wlt.changed = Welcome messages are now {status}.
+commands.tid.result = Conversation ID: {id}
